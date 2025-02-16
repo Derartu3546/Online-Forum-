@@ -26,13 +26,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
     <meta charset="UTF-8">
     <title>Add Question</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="aqstyle.css">
 </head>
 <body>
     <form method="POST" action="">
+        <div class="box">
         <input type="text" name="subject" placeholder="Subject" required>
         <textarea name="question" placeholder="Your Question" required></textarea>
         <button type="submit">Add Question</button>
+        </div>
     </form>
 </body>
 </html>

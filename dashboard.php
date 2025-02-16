@@ -29,17 +29,19 @@ $answers = $answers_stmt->fetchAll();
 <head>
     <meta charset="UTF-8">
     <title>User Dashboard</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dstyle.css">
+  
 </head>
 <body>
     <div class="container">
+        <div class="cont1">
         <h1>Welcome, <?php echo htmlspecialchars($user['username']); ?>!</h1>
-        <a href="profile.php" class="btn btn-primary">Edit Profile</a>
-        <a href="add_question.php" class="btn btn-success">Add Question</a>
-        <a href="search.php" class="btn btn-info">Search Questions</a>
-        <a href="logout.php" class="btn btn-danger">Logout</a>
-
+        <a href="profile.php" class="btn " target="hold">Edit Profile</a>
+        <a href="add_question.php" class="btn " target="hold">Add Question</a>
+        <a href="search.php" class="btn ">Search Questions</a>
+        <a href="logout.php" class="btn ">Logout</a>
+        </div>
+        <div class="cont2">
         <h2>Your Questions</h2>
         <?php if ($questions): ?>
             <ul class="list-group">
@@ -67,9 +69,11 @@ $answers = $answers_stmt->fetchAll();
         <?php else: ?>
             <p>You have not answered any questions yet.</p>
         <?php endif; ?>
+        </div>
+        <div class="space">
+        <iframe  src="" frameborder="0" name="hold"></iframe>
     </div>
-
-   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+   
 </body>
 </html>

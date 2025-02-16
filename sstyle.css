@@ -1,0 +1,38 @@
+.box{
+  height: 350px;
+  width: 250px;
+  background-color: rgba(2, 0, 5, 0.905); 
+  opacity: 80%;
+  color: #fff;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+  padding: 30px, 30px; 
+  border-radius: 30px; 
+}
+.box input{
+   width: 80%;
+   margin: 20px;
+   color: #fff; 
+}
+.box input[type="text"],input[type="password"],input[type="email"]{
+  border: none;
+  border-bottom: 1px solid #fff; 
+  background-color: transparent;
+  height: 40px;
+  outline: none;
+}
+.box button[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 80%;
+    background-color: aquamarine;
+    color: #000;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-left: 20px;
+
+}
+
