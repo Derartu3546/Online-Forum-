@@ -1,0 +1,141 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.form-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #999999;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #007bff;
+}
+
+.input-group label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    font-size: 0.85rem;
+    background-color: #ffffff;
+    padding: 0 5px;
+    color: #666666;
+}
+
+
+.btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+.or {
+    color: #999999;
+    margin: 15px 0;
+    font-size: 0.9rem;
+}
+
+
+.icons {
+    margin: 10px 0;
+}
+
+.icons i {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #666666;
+    transition: color 0.3s ease;
+}
+
+.icons i:hover {
+    color: #007bff;
+}
+
+
+.links p {
+    font-size: 0.9rem;
+    color: #333333;
+}
+
+.links button {
+    background: none;
+    border: none;
+    color: #007bff;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.links button:hover {
+    text-decoration: none;
+}
+
+
+.recover a {
+    color: #007bff;
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+
+.recover a:hover {
+    text-decoration: none;
+}
+
+ 
+ 
